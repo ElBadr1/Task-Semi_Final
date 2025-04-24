@@ -1,0 +1,56 @@
+@media screen and (max-width: 1399px) {
+    h1{
+        font-size: 40px;
+    }
+    h2{
+        font-size: 50px;
+        font-weight: 700;
+        color: #035755;
+        line-height: 59.5px;
+        margin-bottom: 18px;
+    }
+    h3{
+        font-size: 32px;
+        font-weight: 700;
+        color: #FA5652;
+        line-height: 39.04px;
+    }
+    h4{
+        font-size: 29px;
+        font-weight: 700;
+        color: #FA5652;
+        line-height: 35.96px;
+    }
+    h5{
+        font-size: 36px;
+        font-weight: 500;
+        color: #035755;
+        line-height: 52.92px;
+    }
+    h6{
+        font-size: 47px;
+        font-weight: 500;
+        color: #035755;
+        line-height: 69.09px;
+        margin-bottom: 20px;
+    }
+    p{
+        font-size: 18px;
+        font-weight: 400;
+        color: #4B4F51;
+        text-transform: capitalize;
+    }
+    .color-icon{
+        width: 75px;
+        height: 75px;
+        background-color: #fa55523a;
+        border-radius: 50%;
+        font-family: "Red Hat Display", sans-serif;
+        font-weight: 700;
+        font-size: 44px;
+        line-height: 63.8px;
+        padding: 5px;
+        color: #FA5652;
+    }
+    
+}

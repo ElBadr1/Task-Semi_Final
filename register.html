@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <meta name="description" content="task front end">
+    <meta name="keywords" content="task front end">
+    <link rel="shortcut icon" href="img/Group.svg" type="image/x-icon">
+    <!-- My CSS -->
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body>
+    
+
+    <!-- Start Navbar -->
+    <header class="header-fixed py-2 header">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container align-items-center">
+          <a class="navbar-brand" href="index.html">
+            <img src="img/logo.jpg" alt="logo_company">
+          </a>
+          <div class="offcanvas offcanvas-start" tabindex="-1" 
+          id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+            <div class="offcanvas-header justify-content-between">
+              <h5 class="offcanvas-title" id="offcanvasExampleLabel">menu</h5>
+              <button type="button" class="ms-auto" data-bs-dismiss="offcanvas" aria-label="Close">
+                <i class="fa-solid fa-xmark"></i>
+              </button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav m-auto " >
+                <li class="nav-item py-1 position-relative ms-3">
+                  <a class="nav-link " href="index.html">home</a>
+                </li>
+                <li class="nav-item py-1 position-relative ms-3">
+                  <a class="nav-link " href="shop.html">shop</a>
+                </li>
+                <li class="nav-item py-1 position-relative ms-3">
+                  <a class="nav-link " href="t-shirt.html">t-shirts</a>
+                </li>
+                <li class="nav-item py-1 position-relative ms-3">
+                  <a class="nav-link " href="dress.html">dress</a>
+                </li>
+                <li class="nav-item py-1 position-relative ms-3">
+                  <a class="nav-link " href="blog.html">blog</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <ul class="icons d-flex align-items-center">
+            <li>
+              <a class="navbar-toggler" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+                <span class="navbar-toggler-icon"></span>
+              </a>
+            </li>
+            <li>
+              <a href="search.html">
+                <i class="fa-regular fa-magnifying-glass"></i></a>
+            </li>
+            <li class="dropdown-menu-start">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <i class="fa-light fa-user"></i></a>
+              <ul class="dropdown-menu rounded-0 mt-4">
+                <li class="dropdown-item"><a href="log-in.html">Sign In</a></li>
+                <li class="dropdown-item"><a href="register.html">Register</a></li>
+                <li class="dropdown-item ">
+                  <ul class="d-block">
+                     <b class="bord-b">Currency $</b>
+                    <li class="dropdown-item d-block"><a href="">EUR €</a></li>
+                    <li class="dropdown-item d-block"><a href="">USD $</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown-item">
+                  <ul class="d-block">
+                    <b class="bord-b">Language EN</b>
+                    <li class="dropdown-item d-block">
+                      <a href="">English</a>
+                    </li>
+                    <li class="dropdown-item d-block">
+                      <a href="">العربية</a>
+                    </li>
+                    <li class="dropdown-item d-block">
+                      <a href="">Français</a>
+                    </li>
+                    <li class="dropdown-item d-block">
+                      <a href="">Español</a>
+                    </li>
+                    <li class="dropdown-item d-block">
+                      <a href="">Deutsch</a>
+                    </li>
+                    <li class="dropdown-item d-block">
+                      <a href="">Italiano</a>
+                    </li>
+                    <li class="dropdown-item d-block">
+                      <a href="">Nederlands</a>
+                    </li>
+                    <li class="dropdown-item d-block">
+                      <a href="">Polski</a>
+                    </li>
+                    <li class="dropdown-item d-block">
+                      <a href="">Português PT</a>
+                    </li>
+                    <li class="dropdown-item d-block">
+                      <a href="">Русский</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li class="zero">
+              <a href="cart.html"><i class="fa-light fa-bag-shopping"></i></a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+
+    <!-- start main section -->
+    <section class="main">
+      <div class="container">
+        <div class="main-head m-auto">
+            <h6>login</h6>
+            <ul class="text-center d-block">
+              <li class="d-inline-block slash">
+                <a href="index.html">home</a>  
+              </li>
+              <li class="d-inline-block ">
+                <a href="register.html"> Create an account</a>  
+              </li>
+            </ul>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Start Shop section -->
+    <section class="shop">
+      <div class="container">
+        <div class="row p-0">
+          <div class="col-xl-2 col-lg-3">
+            <div class="content-left pe-5 margin-35">
+              <div class="type">
+                <ul class="d-block mb-3">
+                  <h4><a href="shop.html" class="text-uppercase">shop</a></h4>
+                </ul>
+              </div>
+              <div class="best_sellers">
+                <h4 class="mt-5">Bestsellers</h4>
+                <div class="row mt-4">
+                  <div class="col-xl-4 col-lg-3 col-md-2 col-sm-2 p-0 ps-2">
+                    <div class="img">
+                      <a href="">
+                        <img src="img/shop/bestseller_1.jpg" alt="bestseller" id="img-1">
+                        <img src="img/shop/bestseller.jpg" alt="bestseller" id="img-2">
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-lg-8 col-md-3 col-sm-6">
+                    <div class="content">
+                      <div class="stars mb-1">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                      </div>
+                      <div class="body">
+                        <a href="">Sleeveless Gown</a>
+                        <span>$12.38 <del>$15.48</del></span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row mt-4">
+                  <div class="col-xl-4 col-lg-3 col-md-2 col-sm-2 p-0 ps-2">
+                    <div class="img">
+                      <a href="">
+                        <img src="img/shop/the-adventure-begins-framed-poster.jpg" alt="bestseller" id="img-1">
+                        <img src="img/shop/the-adventure-begins-framed-poster (1).jpg" alt="bestseller" id="img-2">
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-lg-8 col-md-3 col-sm-6">
+                    <div class="content">
+                      <div class="stars mb-1">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                      </div>
+                      <div class="body">
+                        <a href="">Denim Shirt</a>
+                        <span>$27.84<del>$34.80</del></span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row mt-4">
+                  <div class="col-xl-4 col-lg-3 col-md-2 col-sm-2 p-0 ps-2">
+                    <div class="img">
+                      <a href="">
+                        <img src="img/shop/t-shirt-9.jpg" alt="bestseller" id="img-1">
+                        <img src="img/shop/t-shirt-7.jpg" alt="bestseller" id="img-2">
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-lg-8 col-md-3 col-sm-6">
+                    <div class="content">
+                      <div class="stars mb-1">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                      </div>
+                      <div class="body">
+                        <a href="">Midi Dress</a>
+                        <span>$18.14<del>$22.68</del></span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="img-side mt-5">
+                <a href="">
+                <img src="img/shop/sidebar_banner.jpg" alt="sidebar_banner">
+                </a>
+              </div>
+            </div>
+          </div> 
+          <div class="col-xl-10 col-lg-9">
+              <div class="content-right margin_minus">
+                <div class="legal_content">
+                  <p>Already have an account?
+                    <a href="log-in.html"> Log in instead!</a>
+                  </p>
+                  <form action="">
+                    <div class="row">
+                      <div class="col-lg-10">
+                        <div class="row mb-3">
+                          <div class="col-xl-4 col-lg-3 col-md-3">
+                            <label name="mr"> Social title</label>
+                          </div>
+                          <div class="col-lg-7 col-md-6">
+                            <input type="radio" name="mr" class="w-auto" id="mr">
+                            <label for="mr">Mr.</label>
+                            <input type="radio" name="mr" class="w-auto" id="mrs">
+                            <label for="mrs">Mrs.</label>
+                          </div>
+                        </div>  
+                        <div class="row">
+                          <div class="col-xl-4 col-lg-3 col-md-3">
+                            <label for=""> First name</label>
+                          </div>
+                          <div class="col-lg-7 col-md-6">
+                            <input type="text" required class="m-0">
+                            <span class="mb-3">Only letters and the dot (.) character, followed by a space, are allowed.</span>
+                          </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xl-4 col-lg-3 col-md-3">
+                              <label for=""> Last name</label>
+                            </div>
+                            <div class="col-lg-7 col-md-6">
+                              <input type="text" required class="m-0">
+                              <span class="mb-3">Only letters and the dot (.) character, followed by a space, are allowed.</span>
+                            </div>
+                          </div>
+                        <div class="row">
+                          <div class="col-xl-4 col-lg-3 col-md-3">
+                            <label for=""> Email</label>
+                          </div>
+                          <div class="col-lg-7 col-md-6">
+                            <input type="email" required>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-xl-4 col-lg-3 col-md-3">
+                            <label for=""> Password</label>
+                          </div>
+                          <div class="col-lg-7 col-md-6">
+                            <input type="password" required title="At least 5 characters long">
+                          </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xl-4 col-lg-3 col-md-3">
+                              <label for="">Birthdate</label>
+                            </div>
+                            <div class="col-lg-7 col-md-6">
+                              <input type="text" placeholder="MM/DD/YYYY" class="m-0">
+                              <span class="mb-3">(E.g.: 05/31/1970)</span>
+                            </div>
+                            <div class="col-lg-1 col-md-1 pt-2">
+                                <p>Optinal</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xl-4 col-lg-3 col-md-3">
+                            </div>
+                            <div class="col-lg-7 col-md-6">
+                                <input type="radio" id="text-1" class="w-auto">
+                                <label for="text-1" class="mb-3"> Receive offers from our partners</label>
+                            </div>  
+                        </div>
+                        <div class="row">
+                            <div class="col-xl-4 col-lg-3 col-md-3">
+                            </div>
+                            <div class="col-lg-7 col-md-6">
+                                <input type="radio" id="text-2" class="w-auto">
+                                <label for="text-2"> Customer data privacy
+                                    
+                                </label>
+                                <span class="mb-3">
+                                    <i class="transform">
+                                        The personal data you provide is used to answer queries,
+                                        process orders or allow access to specific information. 
+                                        You have the right to modify and delete all the personal
+                                        information found in the "My Account" page.
+                                    </i>
+                                </span>
+
+                            </div>  
+                        </div>
+                        <div class="row">
+                            <div class="col-xl-4 col-lg-3 col-md-3">
+                            </div>
+                            <div class="col-lg-7 col-md-6">
+                                <input type="radio" id="text-3" class="w-auto">
+                                <label for="text-3" class="text-none"> Sign up for our newsletter</label>
+                                <span class="mb-3">
+                                    <i class="transform">
+                                        You may unsubscribe at any moment. For that purpose,
+                                        please find our contact info in the legal notice.
+                                    </i>
+                                </span>
+                            </div>  
+                        </div>
+                        <div class="row">
+                            <div class="col-xl-4 col-lg-3 col-md-3">
+                            </div>
+                            <div class="col-lg-7 col-md-6">
+                                <input type="radio" id="text-4" class="w-auto">
+                                <label for="text-4" class="d-inline">I agree to the terms and conditions and the privacy policy</label>
+                            </div>  
+                        </div>
+                    </div>
+                    <footer class="d-flex justify-content-end">
+                      <button type="submit" class="btn m-0">save</button>
+                    </footer>
+                  </form>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Start Footer up Section -->
+    <div class="footer-up">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-12 mt-2">
+            <div class="item">
+              <h6 class=" center">Subscribe Newsletter</h6>
+              <p class="mb-4 center">Subscribe to our newsletters now and stay up to date with new collections 
+                and exclusive offers.</p>
+            </div>
+            <form action="" class="d-flex position-relative align-items-center">
+              <input type="email" name="email" placeholder="Your eamil address">
+              <button class="position-absolute" name="submit" type="submit">
+                <i class="fa-sharp-duotone fa-solid fa-paper-plane"></i>
+              </button>
+            </form>
+          </div>
+          <div class="col-lg-3 col-md-12 mt-2">
+            <div class="item">
+              <h6>Information</h6>
+              <ul>
+                <li class="d-block py-1 ">
+                  <a href="delivery.html">Delivery</a>
+                </li>
+                <li class="d-block py-1 ">
+                  <a href="legal_notice.html">Legal Notice</a>
+                </li>
+                <li class="d-block py-1 ">
+                  <a href="about-us.html">About us</a>
+                </li>
+                <li class="d-block py-1 ">
+                  <a href="payment.html">Secure payment</a>
+                </li>
+                <li class="d-block py-1 ">
+                  <a href="contact-us.html">Contact us</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-12 mt-2">
+            <div class="item">
+              <h6>My account</h6>
+              <ul>
+                <li class="d-block py-1 ">
+                  <a href="log-in.html">Personal info</a>
+                </li>
+                <li class="d-block py-1 ">
+                  <a href="log-in.html">Orders</a>
+                </li>
+                <li class="d-block py-1 ">
+                  <a href="log-in.html">Credit slips</a>
+                </li>
+                <li class="d-block py-1 ">
+                  <a href="log-in.html">Addresses</a>
+                </li>
+                <li class="d-block py-1 ">
+                  <a href="log-in.html">My wishlists</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-12 mt-2">
+            <div class="item">
+              <h6>contact info</h6>
+              <ul>
+                <li class="d-block m-1">
+                  Address: 71 Pennington Lane Vernon Rockville, CT 06066.
+                </li>
+                <li class="d-block m-1">
+                  Phone: 0123-456-789
+                </li>
+                <li class="d-block m-1">
+                  E-mail: <a href="">demo@yourstore.com</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Strat Footer -->
+    <footer class="footer">
+      <div class="container">
+          <div class="row justify-content-between">
+          <div class="col-lg-3">
+              <div class="social-icons text-start pt-1">
+              <ul>
+                  <li>
+                  <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                  </li>
+                  <li class="m-left">
+                  <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                  </li>
+                  <li class="m-left">
+                  <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                  </li>
+                  <li class="m-left">
+                  <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                  </li>
+                  <li class="m-left">
+                  <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                  </li>
+              </ul>
+              </div>
+          </div>
+          <div class="col-lg-4">
+              <div class="copy pt-1">
+              <a href="http://www.prestashop.com">
+                  © 2024 - Ecommerce software by PrestaShop™
+              </a>
+              </div>
+          </div>
+          <div class="col-lg-3">
+              <div class="payment ps-4 ms-4 pt-1">
+              <a href="#">
+                  <img src="img/payment.png" alt="payment-methods">
+              </a>
+              </div>
+          </div>
+          </div>
+      </div>
+  </footer>
+    
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

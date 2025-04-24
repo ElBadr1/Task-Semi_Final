@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>zoralo03</title>
+    <meta name="description" content="task front end">
+    <meta name="keywords" content="task front end">
+    <link rel="shortcut icon" href="img/Group.svg" type="image/x-icon">
+    <!-- My CSS -->
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body>
+    
+
+    <!-- Start Navbar -->
+    <header class="header-fixed py-2 header">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container align-items-center">
+          <a class="navbar-brand" href="index.html">
+            <img src="img/logo.jpg" alt="logo_company">
+          </a>
+          <div class="offcanvas offcanvas-start" tabindex="-1" 
+            id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+            <div class="offcanvas-header justify-content-between">
+              <h5 class="offcanvas-title" id="offcanvasExampleLabel">menu</h5>
+              <button type="button" class="ms-auto" data-bs-dismiss="offcanvas" aria-label="Close">
+                <i class="fa-solid fa-xmark"></i>
+              </button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav m-auto " >
+                <li class="nav-item py-1 position-relative ms-3">
+                  <a class="nav-link " href="index.html">home</a>
+                </li>
+                <li class="nav-item py-1 position-relative ms-3">
+                  <a class="nav-link " href="shop.html">shop</a>
+                </li>
+                <li class="nav-item py-1 position-relative ms-3">
+                  <a class="nav-link " href="t-shirt.html">t-shirts</a>
+                </li>
+                <li class="nav-item py-1 position-relative ms-3">
+                  <a class="nav-link " href="dress.html">dress</a>
+                </li>
+                <li class="nav-item py-1 position-relative ms-3">
+                  <a class="nav-link " href="blog.html">blog</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <ul class="icons d-flex align-items-center">
+            <li>
+              <a class="navbar-toggler" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+                <span class="navbar-toggler-icon"></span>
+              </a>
+            </li>
+            <li>
+              <a href="search.html">
+                <i class="fa-regular fa-magnifying-glass"></i></a>
+            </li>
+            <li class="dropdown-menu-start">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <i class="fa-light fa-user"></i></a>
+              <ul class="dropdown-menu rounded-0 mt-4">
+                <li class="dropdown-item"><a href="log-in.html">Sign In</a></li>
+                <li class="dropdown-item"><a href="register.html">Register</a></li>
+                <li class="dropdown-item ">
+                  <ul class="d-block">
+                     <b class="bord-b">Currency $</b>
+                    <li class="dropdown-item d-block"><a href="">EUR €</a></li>
+                    <li class="dropdown-item d-block"><a href="">USD $</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown-item">
+                  <ul class="d-block">
+                    <b class="bord-b">Language EN</b>
+                    <li class="dropdown-item d-block">
+                      <a href="">English</a>
+                    </li>
+                    <li class="dropdown-item d-block">
+                      <a href="">العربية</a>
+                    </li>
+                    <li class="dropdown-item d-block">
+                      <a href="">Français</a>
+                    </li>
+                    <li class="dropdown-item d-block">
+                      <a href="">Español</a>
+                    </li>
+                    <li class="dropdown-item d-block">
+                      <a href="">Deutsch</a>
+                    </li>
+                    <li class="dropdown-item d-block">
+                      <a href="">Italiano</a>
+                    </li>
+                    <li class="dropdown-item d-block">
+                      <a href="">Nederlands</a>
+                    </li>
+                    <li class="dropdown-item d-block">
+                      <a href="">Polski</a>
+                    </li>
+                    <li class="dropdown-item d-block">
+                      <a href="">Português PT</a>
+                    </li>
+                    <li class="dropdown-item d-block">
+                      <a href="">Русский</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li class="zero">
+              <a href="cart.html"><i class="fa-light fa-bag-shopping"></i></a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+
+    <!-- start main section -->
+    <section class="main">
+      <div class="container">
+          <div class="main-head m-auto">
+            <ul class="text-center d-block pt-4">
+              <li class="d-inline-block slash">
+                <a href="index.html">home</a>  
+              </li>
+              <li class="d-inline-block ">
+                <a href="blog.html" class="text-capitalize">all post</a>  
+              </li>
+            </ul>
+          </div>
+      </div>
+    </section>
+
+
+    <!-- Start Shop section -->
+    <section class="shop">
+      <div class="container">
+        <div class="row p-0">
+          <div class="col-xl-2 col-lg-3">
+            <div class="content-left pe-2 margin-35">
+              <div class="type">
+                <ul class="d-block mb-3">
+                  <h4>Blog Archive</h4>
+                  <li class="d-block"><a href="sub-pages/blog-2022.html" class="m-0">2022</a></li>
+                  <li class="d-block ps-3"><a href="sub-pages/blog-may.html" class="m-0">may</a></li>
+                </ul>
+              </div>
+              <div class="filter mt-5">
+                <h4><a href="" class="text-uppercase">Category</a></h4>
+                <div class="category mt-4">
+                  <select name="" id="">
+                  <option value="">select category</option>
+                  <option value="">-Home (0)</option>
+                  <option value="">-Politics (0)</option>
+                  </select>
+                </div>
+              </div>
+              <div class="best_sellers">
+                <h4 class="mt-5"><a href="" class="text-uppercase">Popular Articles</a></h4>
+                <div class="row mt-4">
+                  <div class="col-lg-5 col-md-2 col-sm-2 p-0">
+                    <div class="img px-1">
+                      <a href="sub-pages/blog -1.html" class="height">
+                        <img src="img/blog/consectetur-adipiscing.jpg" alt="popular articles" title="Consectetur Adipiscing">
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-lg-7 col-md-3 col-sm-6">
+                    <div class="content">
+                      <div class="body">
+                        <a href="sub-pages/blog -1.html" class="f-size d-inline">Consectetur Adipiscing</a>
+                        <span class="d-inline-block f-color">May 27, 2022</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row mt-4">
+                  <div class="col-lg-5 col-md-2 col-sm-2 p-0">
+                    <div class="img px-1">
+                      <a href="sub-pages/blog -2.html" class="height">
+                        <img src="img/blog/lorem-ipsum-dolo.jpg" alt="popular articles" title="Lorem Ipsum Dolo">
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-lg-7 col-md-3 col-sm-6">
+                    <div class="content">
+                      <div class="body">
+                        <a href="sub-pages/blog -2.html" class="f-size d-inline">Lorem Ipsum Dolo</a>
+                        <span class="d-inline-block f-color">May 27, 2022</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <h4 class="mt-5"><a href="" class="text-uppercase">Recent Articles</a></h4>
+                <div class="row mt-4">
+                  <div class="col-lg-5 col-md-2 col-sm-2 p-0">
+                    <div class="img px-1">
+                      <a href="sub-pages/blog -1.html" class="height">
+                        <img src="img/blog/consectetur-adipiscing.jpg" alt="popular articles" title="Consectetur Adipiscing">
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-lg-7 col-md-3 col-sm-6">
+                    <div class="content">
+                      <div class="body">
+                        <a href="sub-pages/blog -1.html" class="f-size d-inline">Consectetur Adipiscing</a>
+                        <span class="d-inline-block f-color">05/27/2022</span>
+                        <span class="d-inline-block f-color ps-3">05:14:40</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row mt-4">
+                  <div class="col-lg-5 col-md-2 col-sm-2 p-0">
+                    <div class="img px-1">
+                      <a href="sub-pages/blog -2.html" class="height">
+                        <img src="img/blog/lorem-ipsum-dolo.jpg" alt="popular articles" title="Lorem Ipsum Dolo">
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-lg-7 col-md-3 col-sm-6">
+                    <div class="content">
+                      <div class="body">
+                        <a href="sub-pages/blog -2.html" class="f-size d-inline">Lorem Ipsum Dolo</a>
+                        <span class="d-inline-block f-color">05/27/2022</span>
+                        <span class="d-inline-block f-color ">05:14:40</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <h4 class="mt-5"><a href="" class="text-uppercase">Blog Search</a></h4>
+                <div class="row mt-4">
+                  <form action="">
+                    <input type="text" placeholder="Search" >
+                    <button class="btn" type="submit">
+                      <i class="fa-regular fa-magnifying-glass"></i>
+                      <span></span>
+                      </button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-10 col-lg-9">
+            <div class="content-right ps-5">
+              <div class="row mb-3">
+                <div class="col-lg-6">
+                  <div class="img">
+                  <img src="img/blog/consectetur-adipiscing.jpg" alt="consectetur-adipiscing">
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="blog mt-3">
+                    <span>
+                      <i class="fa-solid fa-user-large"></i>
+                      <p>Admin Admin</p>
+                    </span>
+                    <span>
+                      <i class="fa-duotone fa-solid fa-comments"></i>
+                      <p><a href="sub-pages/blog -1.html">0 Comments</a></p>
+                    </span>
+                    <span class="border-0">
+                      <i class="fa-duotone fa-regular fa-eye"></i>
+                      <p>162</p>
+                    </span>
+                  </div>
+                  <p class="title">
+                    <a href="sub-pages/blog -1.html">Consectetur Adipiscing</a>
+                  </p>
+                  <div class="article-details">
+                    <p>
+                      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type an
+                    </p>
+                  </div>
+                  <div class="read-more">
+                    <a href="sub-pages/blog -1.html">read more</a>
+                  </div>
+                </div>
+              </div>
+              <div class="row mb-3">
+                <div class="col-lg-6">
+                  <div class="img">
+                  <img src="img/blog/lorem-ipsum-dolo.jpg" alt="lorem_ipsum_dolo">
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="blog mt-3">
+                    <span>
+                      <i class="fa-solid fa-user-large"></i>
+                      <p>Admin Admin</p>
+                    </span>
+                    <span>
+                      <i class="fa-duotone fa-solid fa-comments"></i>
+                      <p><a href="">0 Comments</a></p>
+                    </span>
+                    <span class="border-0">
+                      <i class="fa-duotone fa-regular fa-eye"></i>
+                      <p>160</p>
+                    </span>
+                  </div>
+                  <p class="title">
+                    <a href="sub-pages/blog -2.html">Lorem Ipsum Dolo</a>
+                  </p>
+                  <div class="article-details">
+                    <p>
+                      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type an
+                    </p>
+                  </div>
+                  <div class="read-more">
+                    <a href="sub-pages/blog -2.html">read more</a>
+                  </div>
+                </div>
+              </div>
+              <div class="row mb-3">
+                <div class="col-lg-6">
+                  <div class="img">
+                  <img src="img/blog/lorem-ipsum-dolor.jpg" alt="lorem_ipsum_dolor">
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="blog mt-3">
+                    <span>
+                      <i class="fa-solid fa-user-large"></i>
+                      <p>Admin Admin</p>
+                    </span>
+                    <span>
+                      <i class="fa-duotone fa-solid fa-comments"></i>
+                      <p><a href="">0 Comments</a></p>
+                    </span>
+                    <span class="border-0">
+                      <i class="fa-duotone fa-regular fa-eye"></i>
+                      <p>160</p>
+                    </span>
+                  </div>
+                  <p class="title">
+                    <a href="sub-pages/blog -3.html">Lorem Ipsum Dolor</a>
+                  </p>
+                  <div class="article-details">
+                    <p>
+                      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type an
+                    </p>
+                  </div>
+                  <div class="read-more">
+                    <a href="sub-pages/blog -3.html">read more</a>
+                  </div>
+                </div>
+              </div>
+              <div class="row mb-3">
+                <div class="col-lg-6">
+                  <div class="img">
+                  <img src="img/blog/lorem-ipsum-dolor-sit-amet.jpg" alt="Lorem Ipsum Dolor Sit Amet">
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="blog mt-3">
+                    <span>
+                      <i class="fa-solid fa-user-large"></i>
+                      <p>Admin Admin</p>
+                    </span>
+                    <span>
+                      <i class="fa-duotone fa-solid fa-comments"></i>
+                      <p><a href="">0 Comments</a></p>
+                    </span>
+                    <span class="border-0">
+                      <i class="fa-duotone fa-regular fa-eye"></i>
+                      <p>162</p>
+                    </span>
+                  </div>
+                  <p class="title">
+                    <a href="sub-pages/blog -4.html">Lorem Ipsum Dolor Sit Amet</a>
+                  </p>
+                  <div class="article-details">
+                    <p>
+                      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type an
+                    </p>
+                  </div>
+                  <div class="read-more">
+                    <a href="sub-pages/blog -4.html">read more</a>
+                  </div>
+                </div>
+              </div>
+              <div class="row mb-3">
+                <div class="col-lg-6">
+                  <div class="img">
+                  <img src="img/blog/the-standard-lorem-ipsum.jpg" alt="The Standard Lorem Ipsum">
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="blog mt-3">
+                    <span>
+                      <i class="fa-solid fa-user-large"></i>
+                      <p>Admin Admin</p>
+                    </span>
+                    <span>
+                      <i class="fa-duotone fa-solid fa-comments"></i>
+                      <p><a href="">0 Comments</a></p>
+                    </span>
+                    <span class="border-0">
+                      <i class="fa-duotone fa-regular fa-eye"></i>
+                      <p>160</p>
+                    </span>
+                  </div>
+                  <p class="title">
+                    <a href="sub-pages/blog -5.html">The Standard Lorem Ipsum</a>
+                  </p>
+                  <div class="article-details">
+                    <p>
+                      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type an
+                    </p>
+                  </div>
+                  <div class="read-more">
+                    <a href="sub-pages/blog -5.html">read more</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Start Footer up Section -->
+    <div class="footer-up">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-12 mt-2">
+            <div class="item">
+              <h6 class=" center">Subscribe Newsletter</h6>
+              <p class="mb-4 center">Subscribe to our newsletters now and stay up to date with new collections 
+                and exclusive offers.</p>
+            </div>
+            <form action="" class="d-flex position-relative align-items-center">
+              <input type="email" name="email" placeholder="Your eamil address">
+              <button class="position-absolute" name="submit" type="submit">
+                <i class="fa-sharp-duotone fa-solid fa-paper-plane"></i>
+              </button>
+            </form>
+          </div>
+          <div class="col-lg-3 col-md-12 mt-2">
+            <div class="item">
+              <h6>Information</h6>
+              <ul>
+                <li class="d-block py-1 ">
+                  <a href="delivery.html">Delivery</a>
+                </li>
+                <li class="d-block py-1 ">
+                  <a href="legal_notice.html">Legal Notice</a>
+                </li>
+                <li class="d-block py-1 ">
+                  <a href="about-us.html">About us</a>
+                </li>
+                <li class="d-block py-1 ">
+                  <a href="payment.html">Secure payment</a>
+                </li>
+                <li class="d-block py-1 ">
+                  <a href="contact-us.html">Contact us</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-12 mt-2">
+            <div class="item">
+              <h6>My account</h6>
+              <ul>
+                <li class="d-block py-1 ">
+                  <a href="log-in.html">Personal info</a>
+                </li>
+                <li class="d-block py-1 ">
+                  <a href="log-in.html">Orders</a>
+                </li>
+                <li class="d-block py-1 ">
+                  <a href="log-in.html">Credit slips</a>
+                </li>
+                <li class="d-block py-1 ">
+                  <a href="log-in.html">Addresses</a>
+                </li>
+                <li class="d-block py-1 ">
+                  <a href="log-in.html">My wishlists</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-12 mt-2">
+            <div class="item">
+              <h6>contact info</h6>
+              <ul>
+                <li class="d-block m-1">
+                  Address: 71 Pennington Lane Vernon Rockville, CT 06066.
+                </li>
+                <li class="d-block m-1">
+                  Phone: 0123-456-789
+                </li>
+                <li class="d-block m-1">
+                  E-mail: <a href="">demo@yourstore.com</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Strat Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row justify-content-between">
+            <div class="col-lg-3">
+                <div class="social-icons text-start pt-1">
+                <ul>
+                    <li>
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    </li>
+                    <li class="m-left">
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    </li>
+                    <li class="m-left">
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                    </li>
+                    <li class="m-left">
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    </li>
+                    <li class="m-left">
+                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                    </li>
+                </ul>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="copy pt-1">
+                <a href="http://www.prestashop.com">
+                    © 2024 - Ecommerce software by PrestaShop™
+                </a>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="payment ps-4 ms-4 pt-1">
+                <a href="#">
+                    <img src="img/payment.png" alt="payment-methods">
+                </a>
+                </div>
+            </div>
+            </div>
+        </div>
+    </footer>
+    
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
